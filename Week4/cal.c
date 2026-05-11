@@ -49,4 +49,7 @@ void mult(void){
 void div(void){
     float ans = num_1 / num_2;
     printf("%.2f %c %.2f = %.2f\n",num_1,sign,num_2,ans);
+    if(num_2 == 0){
+        printf("Syntax Error\n");
+    }
 }
